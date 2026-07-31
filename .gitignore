@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Models and caches
+models/
+artifacts/
+cache/
+*.pt
+*.pth
+*.safetensors
+
+# Generated datasets and reports
+data/raw/
+data/processed/
+reports/
+*.parquet
+*.arrow
+*.npy
+*.npz
+
+# Runtime state
+var/
+run/
+status.json
+*.cursor
+*.db
+
+# Local configuration and secrets
+.env
+*.local.conf
+HF_TOKEN
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*~
