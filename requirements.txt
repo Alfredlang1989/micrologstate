@@ -1,0 +1,10 @@
+sentence-transformers>=5.0,<6
+datasets>=4.0,<5
+transformers>=4.55,<6
+huggingface-hub>=0.34,<2
+scikit-learn>=1.7,<2
+numpy>=2.0,<3
+pandas>=2.2,<4
+pyarrow>=18,<24
+tqdm>=4.66,<5
+safetensors>=0.5,<1
